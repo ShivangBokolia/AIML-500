@@ -18,7 +18,7 @@ import Me_Mini from "./images/shiv-mini.png";
 import Me_Film_Mini from "./images/Me_Film_mini.jpg";
 
 // Sonic:
-import Sonic from "./images/Sonic.png";
+import Sonic from "./images/sonic.png";
 
 // Code:
 import Code_Image from "./images/code_img.jpg";
