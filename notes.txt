@@ -1,0 +1,6 @@
+sm: hidden => This means that the tag is going to be hidden for all sizes greater than sm.
+md: hidden => This means that the tag is going to be hidden for all sizes greater than md.
+lg: hidden => This means that the tag is going to be hidden for all sizes greater than lg.
+
+So for mobile, we always set md: hidden, as we don't want that display for size greater than
+md screen size.
