@@ -15,7 +15,7 @@ import Grad from "./icons/grad.svg";
 import Me from "./images/Me_Film.jpg";
 import Me_Anime from "./images/shiv.png";
 import Me_Mini from "./images/shiv-mini.png";
-import Me_Film_Mini from "./images/Me_Film_Mini.jpg";
+import Me_Film_Mini from "./images/Me_Film_mini.jpg";
 
 // Sonic:
 import Sonic from "./images/Sonic.png";
