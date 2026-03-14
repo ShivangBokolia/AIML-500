@@ -21,6 +21,7 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route index element={<HomeScreen />} />
+                <Route path="/AIML-500" element={<HomeScreen />} />
                 <Route path="/artifacts" element={<ProjectScreen />} />
                 <Route path="/contact" element={<ContactScreen />} />
                 <Route path="/artifactOne" element={<ArtifactOneScreen />} />
