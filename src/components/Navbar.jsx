@@ -89,7 +89,7 @@ const Navbar = () => {
                     >
                         <div className="hidden md:flex">
                             <h2 className="text-xl font-bold leading-tight">
-                                <Link to="/">Shivang Bokolia</Link>
+                                <Link to="/AIML-500">Shivang Bokolia</Link>
                             </h2>
                         </div>
                         <div>
@@ -114,7 +114,7 @@ const Navbar = () => {
                     >
                         <div>
                             <h2 className="text-xl font-bold leading-tight">
-                                <Link to="/">SB</Link>
+                                <Link to="/AIML-500">SB</Link>
                             </h2>
                         </div>
                         <button
