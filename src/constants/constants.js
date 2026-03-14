@@ -212,6 +212,5 @@ export {
     softSkills,
     projects,
     connect,
-    photoImages,
     artifacts,
 };
