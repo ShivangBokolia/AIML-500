@@ -1,6 +1,6 @@
 import "./App.css";
 import HomeScreen from "./pages/HomeScreen";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import ProjectScreen from "./pages/ProjectScreen";
 import ContactScreen from "./pages/ContactScreen";
 import { useEffect } from "react";
@@ -18,7 +18,7 @@ function App() {
     });
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route index element={<HomeScreen />} />
                 <Route path="/AIML-500" element={<HomeScreen />} />
@@ -27,7 +27,7 @@ function App() {
                 <Route path="/artifactOne" element={<ArtifactOneScreen />} />
                 <Route path="/*" element={<NotFoundPage />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
