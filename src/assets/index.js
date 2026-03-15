@@ -22,6 +22,7 @@ import Sonic from "./images/sonic.png";
 
 // Code:
 import Code_Image from "./images/code_img.jpg";
+import CoursePilot from "./images/CoursePilot.png";
 
 export {
     linkedin,
@@ -41,4 +42,5 @@ export {
     Mail,
     Grad,
     Sonic,
+    CoursePilot,
 };

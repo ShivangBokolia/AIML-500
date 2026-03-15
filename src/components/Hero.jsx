@@ -21,13 +21,14 @@ const Hero = () => {
                         </h3>
                     </div>
                     <p className="text-nav font-normal leading-relaxed">
-                        Fueled by an insatiable curiosity &#129300; and more
-                        chai &#9749; than is probably healthy, I am a Full Stack
-                        Software Engineer &#128104;&#8205;&#128187; on a mission
-                        to constantly learn and create exceptional digital
-                        experiences. I strive to blend creativity with technical
-                        wizardry &#129497;to deliver solutions that make the
-                        users say 'wow' and fellow developers say 'how?'
+                        I specialize in building automation and algorithm-driven
+                        systems that help engineering teams move faster and ship
+                        more reliable software. My work focuses on performance
+                        optimization, developer tooling, and AI-driven
+                        automation, including systems that generate thousands of
+                        test scenarios from complex requirements. I enjoy
+                        solving complex engineering problems that improve
+                        productivity and scalability across teams.
                     </p>
                     <div className="flex flex-col md:flex-row gap-4">
                         <Button
