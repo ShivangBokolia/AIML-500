@@ -23,6 +23,8 @@ import Sonic from "./images/sonic.png";
 // Code:
 import Code_Image from "./images/code_img.jpg";
 import CoursePilot from "./images/CoursePilot.png";
+import Timeline from "./images/Timeline.png";
+import Timeline_Tag from "./images/Timeline_project_tag.png";
 
 export {
     linkedin,
@@ -43,4 +45,6 @@ export {
     Grad,
     Sonic,
     CoursePilot,
+    Timeline,
+    Timeline_Tag,
 };

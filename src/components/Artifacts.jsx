@@ -1,7 +1,6 @@
 import React from "react";
 import { artifacts } from "../constants/constants";
 import { Link } from "react-router-dom";
-import { Code, Code_Image, GitHub } from "../assets";
 
 const Artifacts = () => {
     return (
@@ -15,7 +14,7 @@ const Artifacts = () => {
                     >
                         <div className="w-96 flex-none p-4">
                             <img
-                                src={Code_Image}
+                                src={artifact.image}
                                 className="w-full rounded-2xl"
                             />
                         </div>
@@ -30,7 +29,7 @@ const Artifacts = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div>
+                            {/* <div>
                                 <button
                                     className="w-96 p-2 cursor-pointer rounded-full from-[#0C1B1D] to-highlight bg-gradient-to-r shadow-2xl"
                                     onClick={() =>
@@ -42,14 +41,14 @@ const Artifacts = () => {
                                 >
                                     Visit Live Project
                                 </button>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     {/* ###################### MOBILE: ######################*/}
                     <div className="md:hidden flex flex-col rounded-2xl border-1 border-white/30 bg-white/10">
                         <div className="flex-none mx-auto p-4">
                             <img
-                                src={Code_Image}
+                                src={artifact.image}
                                 className="w-full rounded-2xl"
                             />
                         </div>
@@ -63,7 +62,7 @@ const Artifacts = () => {
                                     {artifact.definition}
                                 </p>
                             </div>
-                            <div>
+                            {/* <div>
                                 <button
                                     className="w-full p-2 cursor-pointer rounded-full from-[#0C1B1D] to-highlight bg-gradient-to-r shadow-2xl"
                                     onClick={() =>
@@ -75,7 +74,7 @@ const Artifacts = () => {
                                 >
                                     Visit Live Project
                                 </button>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </Link>

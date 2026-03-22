@@ -1,4 +1,11 @@
-import { linkedin, GitHub_Outline, Instagram, Mail } from "../assets";
+import {
+    linkedin,
+    GitHub_Outline,
+    Instagram,
+    Mail,
+    Code_Image,
+    Timeline_Tag,
+} from "../assets";
 
 const navbarLinks = [
     {
@@ -127,6 +134,26 @@ const artifacts = [
             "Through the development of the IWU Workshop Chatbot, I demonstrated my ability to identify a real user need and build a practical AI-driven solution. By experimenting with different tools, selecting the most suitable platform, and refining prompts, I created a chatbot that provides accurate information in an engaging and user-friendly way. This project highlights my skills in problem solving, prompt engineering, tool evaluation, and designing solutions that simplify complex information for users.",
         source_link: "https://www.chatbase.co/YiqLVcp82YHBitv_Kg9Kf/help",
         in_page_link: "artifactOne",
+        image: Code_Image,
+    },
+    {
+        name: "AI & ML Timeline",
+        definition:
+            "This project presents a timeline of Artificial Intelligence, highlighting key milestones and developments from its origins in the 1950s to modern advancements. It shows how AI has evolved into a powerful technology impacting many industries today.",
+        objective:
+            "The primary objective of this timeline is to illustrate the evolution of Artificial Intelligence (AI) from the 1950s to the present day. It highlights key milestones, technological breakthroughs, and influential developments that have shaped the field over time. The timeline also reflects important historical phases, including periods of rapid progress, setbacks such as the AI winters, and modern advancements driven by deep learning and large-scale computing. Overall, the project demonstrates how AI has grown from early theoretical concepts into a transformative technology impacting industries such as healthcare, business, and scientific research.",
+        process: [
+            "Goal: The primary objective was to illustrate the progression of Artificial Intelligence across decades, from the 1950s to the present, emphasizing key advancements and how the field has evolved over time.",
+            "Experimentation: Various digital tools, including Lucidchart, Canva, and Prezi, were explored to determine the most effective platform for creating a visually engaging and informative presentation.",
+            "Tool Selection: After evaluating these options, Prezi was selected due to its user-friendly interface, dynamic templates, and integrated chatbot support, which facilitated efficient content creation and enhanced visual design.",
+            "Design: Once the template was generated, team members collaboratively contributed by adding researched content for each decade. The information was then consolidated and refined, resulting in a cohesive and comprehensive presentation.",
+        ],
+        tools: "Prezi and Powerpoint Presentation",
+        value_proposition:
+            "This project demonstrates my ability to research and synthesize complex technical information into a clear, structured, and visually engaging format. It highlights my skills in using modern digital tools to design professional presentations, collaborate effectively within a team, and communicate the evolution and real-world impact of Artificial Intelligence across different time periods.",
+        source_link: "https://prezi.com/view/yhiQJ3yqHt5MFC2dFr82/",
+        in_page_link: "artifactTwo",
+        image: Timeline_Tag,
     },
 ];
 

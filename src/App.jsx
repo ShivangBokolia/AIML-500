@@ -6,6 +6,7 @@ import ContactScreen from "./pages/ContactScreen";
 import { useEffect } from "react";
 import NotFoundPage from "./pages/NotFoundPage";
 import ArtifactOneScreen from "./pages/ArtifactOneScreen";
+import ArtifactTwoScreen from "./pages/ArtifactTwoScreen";
 
 function App() {
     useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
                 <Route path="/artifacts" element={<ProjectScreen />} />
                 <Route path="/contact" element={<ContactScreen />} />
                 <Route path="/artifactOne" element={<ArtifactOneScreen />} />
+                <Route path="/artifactTwo" element={<ArtifactTwoScreen />} />
                 <Route path="/*" element={<NotFoundPage />} />
             </Routes>
         </HashRouter>
