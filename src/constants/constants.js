@@ -5,6 +5,7 @@ import {
     Mail,
     Code_Image,
     Timeline_Tag,
+    ML_DL,
 } from "../assets";
 
 const navbarLinks = [
@@ -154,6 +155,25 @@ const artifacts = [
         source_link: "https://prezi.com/view/yhiQJ3yqHt5MFC2dFr82/",
         in_page_link: "artifactTwo",
         image: Timeline_Tag,
+    },
+    {
+        name: "Machine Learning vs Deep Learning",
+        definition:
+            "This assignment presents a comparison of machine learning and deep learning by selecting one example of each and applying them to real-world use cases. It explains the differences between the two approaches, including how machine learning depends on manually selected features and how deep learning automatically learns features from raw data. This assignment also justifies why each approach was suitable for its problem and why the alternative approach was less appropriate.",
+        objective:
+            "The primary objective of this assignment is to compare machine learning and deep learning by analyzing real-world examples of each, explaining how their differences in feature extraction, data requirements, and complexity make them suitable for different types of problems.",
+        process: [
+            "Goal: Compare machine learning and deep learning using real-world examples.",
+            "Research 1: Key differences between ML and DL, focusing on how each approach works, what kind of data it uses, and what types of problems it solves best.",
+            "Research 2: Specific examples of each type, such as a traditional machine learning application and a deep learning application, to connect the concepts to real-world use cases.",
+            "Document: Organized my findings and wrote everything down in a clear response that explained the examples, their suitability, and why the other approach was not the best fit.",
+        ],
+        tools: "ChatGPT 5.2 and Academic Writer",
+        value_proposition:
+            "Through completing the Machine Learning vs. Deep Learning assignment, I strengthened my ability to distinguish between two major AI approaches and evaluate which one is most appropriate for a specific real-world problem. I learned how traditional machine learning relies on human-selected features and works well for structured problems with smaller datasets, while deep learning can automatically extract patterns from raw data and is better suited for complex tasks such as image recognition or natural language processing. This assignment improved my ability to connect theory to practice, justify technical decisions, and think critically about how AI solutions are designed for different business and industry needs.",
+        source_link: null,
+        in_page_link: "artifactThree",
+        image: ML_DL,
     },
 ];
 

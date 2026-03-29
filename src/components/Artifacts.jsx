@@ -24,7 +24,7 @@ const Artifacts = () => {
                                     {artifact.name}
                                 </h5>
                                 <div className="flex flex-col gap-1">
-                                    <p className="text-nav overflow-y-auto max-h-28">
+                                    <p className="text-nav overflow-y-auto">
                                         {artifact.definition}
                                     </p>
                                 </div>
