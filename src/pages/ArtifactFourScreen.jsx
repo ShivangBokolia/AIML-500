@@ -1,9 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { artifacts } from "../constants/constants";
-import { ML_DL } from "../assets";
 
-const artifact = artifacts[2];
+const artifact = artifacts[3];
 
 const ArtifactThreeScreen = () => {
     return (
@@ -14,7 +13,7 @@ const ArtifactThreeScreen = () => {
                 <div className="hidden md:flex lg:flex-row flex-col justify-between px-24 lg:px-48 gap-4">
                     <div className="flex flex-col items-center text-white pb-8 justify-center">
                         <span className="font-semibold tracking-widest uppercase text-xs mb-2 block">
-                            Artifact 3
+                            Artifact 4
                         </span>
                         <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
                             {artifact.name}
@@ -24,7 +23,7 @@ const ArtifactThreeScreen = () => {
                                 className="md:w-72 w-full p-1 cursor-pointer rounded-full from-[#0C1B1D] to-highlight bg-gradient-to-r shadow-2xl"
                                 onClick={() =>
                                     window.open(
-                                        "/AIML-500/Module2_3_Shivang Bokolia.docx",
+                                        "/AIML-500/Assignment3_1_Shivang_Bokolia.docx",
                                         "_blank",
                                     )
                                 }
@@ -35,13 +34,16 @@ const ArtifactThreeScreen = () => {
                             </button>
                         </div>
                     </div>
-                    <img src={ML_DL} className="lg:w-full rounded-3xl" />
+                    <img
+                        src={artifact.image}
+                        className="lg:w-full rounded-3xl"
+                    />
                 </div>
                 {/*################ MOBILE ################ */}
                 <div className="flex md:hidden flex-col justify-between gap-4 px-4 items-center">
                     <div className="flex flex-col items-center text-white pb-8 justify-center">
                         <span className="font-semibold tracking-widest uppercase text-xs mb-2 block">
-                            Artifact 3
+                            Artifact 4
                         </span>
                         <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
                             {artifact.name}
@@ -51,7 +53,7 @@ const ArtifactThreeScreen = () => {
                                 className="md:w-72 w-full p-2 cursor-pointer font-semibold rounded-full from-[#0C1B1D] to-highlight bg-gradient-to-r shadow-2xl"
                                 onClick={() =>
                                     window.open(
-                                        "/AIML-500/Module2_3_Shivang Bokolia.docx",
+                                        "/AIML-500/Assignment3_1_Shivang_Bokolia.docx",
                                         "_blank",
                                     )
                                 }
@@ -60,7 +62,10 @@ const ArtifactThreeScreen = () => {
                             </button>
                         </div>
                     </div>
-                    <img src={ML_DL} className="lg:w-full rounded-3xl" />
+                    <img
+                        src={artifact.image}
+                        className="lg:w-full rounded-3xl"
+                    />
                 </div>
 
                 {/* REST OF THE BODY */}

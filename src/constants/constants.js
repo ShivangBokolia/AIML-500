@@ -6,6 +6,7 @@ import {
     Code_Image,
     Timeline_Tag,
     ML_DL,
+    Challenges,
 } from "../assets";
 
 const navbarLinks = [
@@ -174,6 +175,26 @@ const artifacts = [
         source_link: null,
         in_page_link: "artifactThree",
         image: ML_DL,
+    },
+    {
+        name: "Adapting to Challenges",
+        definition:
+            "This assignment presents a reflection on a current challenge I am facing in my leadership role and consider how I can seek God's guidance to adjust my approach. It also requires me to identify a situation where I need to take a significant risk or make a tough decision.",
+        objective:
+            "The objective of this assignment is for me to evaluate my current leadership challenges, seek God-centered guidance to improve my approach, and develop the courage and strategic thinking needed to make difficult decisions by drawing inspiration from Esther's example.",
+        process: [
+            "Goal: Strengthen my leadership by addressing current challenges with greater clarity and confidence, seeking God's wisdom to guide my decisions,",
+            "Research 1: Reflect on my personal leadership experiences, identify specific challenges I am facing, and evaluate how my current approach can be improved.",
+            "Research 2: Study Esther's story to understand how she demonstrated courage, wisdom, and strategic decision-making, and then apply those insights to my own situation.",
+            "Research 3: Practical ways to seek guidance—such as reflection, prayer, and thoughtful planning—to ensure my approach aligns with my values and leadership goals.",
+            "Document: I will document my reflections, insights, and action steps clearly, organizing them into a structured response that shows my thought process, learning, and how I plan to apply these principles in my leadership.",
+        ],
+        tools: "ChatGPT 5.2 and Academic Writer",
+        value_proposition:
+            "This assignment provides me with the opportunity to grow as a more thoughtful and intentional leader by helping me reflect on real challenges I am facing and align my decisions with my core values. By integrating faith-based guidance with practical leadership strategies, I can develop greater clarity, courage, and wisdom in my decision-making. Ultimately, this process equips me to lead more effectively, communicate more clearly, and make balanced, strategic choices that positively impact my team and organization.",
+        source_link: null,
+        in_page_link: "artifactFour",
+        image: Challenges,
     },
 ];
 
