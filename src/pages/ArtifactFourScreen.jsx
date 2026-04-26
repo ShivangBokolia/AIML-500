@@ -108,6 +108,20 @@ const ArtifactThreeScreen = () => {
                             </ul>
                         </div>
                     </div>
+                    <div className="bg-white/15 p-4 rounded-xl sm:col-span-2">
+                        <div className="flex flex-col gap-1">
+                            <h5 className="font-bold text-xl text-white">
+                                References
+                            </h5>
+                            <ul>
+                                {artifact.references.map((process, idx) => (
+                                    <li className="text-nav pb-2" key={idx}>
+                                        {process}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

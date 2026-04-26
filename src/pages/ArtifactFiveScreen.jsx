@@ -1,11 +1,10 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { artifacts } from "../constants/constants";
-import { Timeline } from "../assets";
 
-const artifact = artifacts[1];
+const artifact = artifacts[4];
 
-const ArtifactTwoScreen = () => {
+const ArtifactFiveScreen = () => {
     return (
         <div className="relative">
             <Navbar />
@@ -14,7 +13,7 @@ const ArtifactTwoScreen = () => {
                 <div className="hidden md:flex lg:flex-row flex-col justify-between px-24 lg:px-48 gap-4">
                     <div className="flex flex-col items-center text-white pb-8 justify-center">
                         <span className="font-semibold tracking-widest uppercase text-xs mb-2 block">
-                            Artifact 2
+                            Artifact 5
                         </span>
                         <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
                             {artifact.name}
@@ -23,35 +22,28 @@ const ArtifactTwoScreen = () => {
                             <button
                                 className="md:w-72 w-full p-1 cursor-pointer rounded-full from-[#0C1B1D] to-highlight bg-gradient-to-r shadow-2xl"
                                 onClick={() =>
-                                    window.open(artifact.source_link, "_blank")
-                                }
-                            >
-                                <span className="block text-white px-4 py-3 font-semibold rounded-full bg-background-green hover:bg-transparent duration-300">
-                                    Visit Presentation (Prezi)
-                                </span>
-                            </button>
-                            <button
-                                className="md:w-72 w-full p-1 cursor-pointer rounded-full from-[#0C1B1D] to-highlight bg-gradient-to-r shadow-2xl"
-                                onClick={() =>
                                     window.open(
-                                        "/AIML-500/AI_Timeline.pptx",
+                                        "/AIML-500/Assignment6_3_Shivang_Bokolia.pdf",
                                         "_blank",
                                     )
                                 }
                             >
                                 <span className="block text-white px-4 py-3 font-semibold rounded-full bg-background-green hover:bg-transparent duration-300">
-                                    Download Presentation
+                                    Download Assignment
                                 </span>
                             </button>
                         </div>
                     </div>
-                    <img src={Timeline} className="lg:w-full rounded-3xl" />
+                    <img
+                        src={artifact.image}
+                        className="lg:w-full rounded-3xl"
+                    />
                 </div>
                 {/*################ MOBILE ################ */}
                 <div className="flex md:hidden flex-col justify-between gap-4 px-4 items-center">
                     <div className="flex flex-col items-center text-white pb-8 justify-center">
                         <span className="font-semibold tracking-widest uppercase text-xs mb-2 block">
-                            Artifact 2
+                            Artifact 4
                         </span>
                         <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
                             {artifact.name}
@@ -60,25 +52,20 @@ const ArtifactTwoScreen = () => {
                             <button
                                 className="md:w-72 w-full p-2 cursor-pointer font-semibold rounded-full from-[#0C1B1D] to-highlight bg-gradient-to-r shadow-2xl"
                                 onClick={() =>
-                                    window.open(artifact.source_link, "_blank")
-                                }
-                            >
-                                Visit Presentation (Prezi)
-                            </button>
-                            <button
-                                className="md:w-72 w-full p-2 cursor-pointer font-semibold rounded-full from-[#0C1B1D] to-highlight bg-gradient-to-r shadow-2xl"
-                                onClick={() =>
                                     window.open(
-                                        "/AIML-500/AI_Timeline.pptx",
+                                        "/AIML-500/Assignment6_3_Shivang_Bokolia.pdf",
                                         "_blank",
                                     )
                                 }
                             >
-                                Download Presentation
+                                Download Assignment
                             </button>
                         </div>
                     </div>
-                    <img src={Timeline} className="lg:w-full rounded-3xl" />
+                    <img
+                        src={artifact.image}
+                        className="lg:w-full rounded-3xl"
+                    />
                 </div>
 
                 {/* REST OF THE BODY */}
@@ -141,4 +128,4 @@ const ArtifactTwoScreen = () => {
     );
 };
 
-export default ArtifactTwoScreen;
+export default ArtifactFiveScreen;

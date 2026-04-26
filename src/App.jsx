@@ -9,6 +9,7 @@ import ArtifactOneScreen from "./pages/ArtifactOneScreen";
 import ArtifactTwoScreen from "./pages/ArtifactTwoScreen";
 import ArtifactThreeScreen from "./pages/ArtifactThreeScreen";
 import ArtifactFourScreen from "./pages/ArtifactFourScreen";
+import ArtifactFiveScreen from "./pages/ArtifactFiveScreen";
 
 function App() {
     useEffect(() => {
@@ -34,6 +35,7 @@ function App() {
                     element={<ArtifactThreeScreen />}
                 />
                 <Route path="/artifactFour" element={<ArtifactFourScreen />} />
+                <Route path="/artifactFive" element={<ArtifactFiveScreen />} />
                 <Route path="/*" element={<NotFoundPage />} />
             </Routes>
         </HashRouter>

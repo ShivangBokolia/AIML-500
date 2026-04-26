@@ -7,6 +7,7 @@ import {
     Timeline_Tag,
     ML_DL,
     Challenges,
+    Commercial,
 } from "../assets";
 
 const navbarLinks = [
@@ -156,6 +157,9 @@ const artifacts = [
         source_link: "https://prezi.com/view/yhiQJ3yqHt5MFC2dFr82/",
         in_page_link: "artifactTwo",
         image: Timeline_Tag,
+        references: [
+            "ChatGPT 5.2 (Used for research, image generation and text formatting)",
+        ],
     },
     {
         name: "Machine Learning vs Deep Learning",
@@ -175,6 +179,9 @@ const artifacts = [
         source_link: null,
         in_page_link: "artifactThree",
         image: ML_DL,
+        references: [
+            "ChatGPT 5.2 (Used for research, image generation and text formatting)",
+        ],
     },
     {
         name: "Adapting to Challenges",
@@ -195,6 +202,37 @@ const artifacts = [
         source_link: null,
         in_page_link: "artifactFour",
         image: Challenges,
+        references: [
+            "ChatGPT 5.2 (Used for text formatting and image generation)",
+        ],
+    },
+    {
+        name: "Commerical Applications of AI: Newsletter",
+        definition:
+            "This assignment focused on researching recent commercial AI applications across multiple industries and analyzing how these tools are transforming business processes and decision-making. The project examined real-world AI products in retail, healthcare, and logistics, highlighting how organizations are using AI to improve customer service, automate administrative workflows, and optimize operations.",
+        objective:
+            "The objective of this assignment was to evaluate current AI innovations and communicate their business impact in a clear, professional newsletter format. By completing this project, I strengthened my ability to research emerging AI trends, connect technical developments to practical workplace use cases, and present complex AI concepts in a way that is accessible to a non-technical audience.",
+        process: [
+            "Goal: Create a newsletter that focused on the recent commercial AI applications across three different industres.",
+            "Choosing the industies: I decided to focus on three industries where AI is currently having a strong business impact: retail/customer experience, healthcare operations, and logistics/supply chain.",
+            "Research Recent AI Updates: I researched recent AI product updates and gathered information about specific AI tools, including Home Depot's AI voice agent, Ulta AI, Infinitus Studio, and FarEye PILOT AI Dispatcher.",
+            "Analyzing Business Impact: I looked at how each AI product could improve business processes, such as customer service, product recommendations, healthcare administration, delivery routing, and decision-making.",
+            "Document: I organized the information into a newsletter format with a title, introduction, industry overview, individual sections, visual summary, conclusion, and sources.",
+        ],
+        tools: "ChatGPT 5.2",
+        value_proposition:
+            "This assignment helped me strengthen my ability to connect current AI innovations to real business needs. By researching recent AI applications in retail, healthcare, and logistics, I learned how artificial intelligence is being used to improve customer service, automate administrative tasks, and support faster decision-making. This helped me see AI not only as a technical tool, but also as a practical solution for improving everyday business processes.",
+        source_link: null,
+        in_page_link: "artifactFive",
+        image: Commercial,
+        references: [
+            "ChatGPT 5.2 (Used for newsletter creation and text formatting)",
+            "FarEye. (2026, April 24). FarEye launches agentic AI dispatcher for last-mile logistics. Supply & Demand Chain Executive.",
+            "Infinitus. (2026, April 23). Introducing Infinitus Studio: Healthcare's no-code AI agent builder.",
+            "The Home Depot. (2026, April 22). The Home Depot delivers customer store phone support four times faster using Google Cloud's Gemini Enterprise for Customer Experience.",
+            "TOI Tech Desk. (2026, April 24). FarEye launches PILOT AI dispatcher, claims up to 90% faster logistics workflows. The Times of India.",
+            "Ulta Beauty. (2026, April 22). Ulta Beauty and Google introduce Gemini-enabled shopping experiences that streamline beauty discovery and purchase.",
+        ],
     },
 ];
 

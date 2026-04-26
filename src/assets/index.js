@@ -27,6 +27,7 @@ import Timeline from "./images/Timeline.png";
 import Timeline_Tag from "./images/Timeline_project_tag.png";
 import ML_DL from "./images/ML_DL.png";
 import Challenges from "./images/Challenges.png";
+import Commercial from "./images/Commercial.png";
 
 export {
     linkedin,
@@ -51,4 +52,5 @@ export {
     Timeline_Tag,
     ML_DL,
     Challenges,
+    Commercial,
 };
